@@ -1,0 +1,119 @@
+header{
+	background-color: #28499C;
+	color:white;
+	text-align: center;
+	padding: 20px 0;
+}
+header figure{
+	margin: 0;
+}
+header figcaption{
+	color : white;
+}
+footer{
+	background-color: #28499C;
+	color:white;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 15px;
+}
+figure { 
+	text-align: center; 
+	margin: 20px 0; 
+} 
+body img {
+	border-radius: 8px;
+	max-width: 90%;
+}
+body figcaption{
+	font-family: sans-serif;
+	font-size: 0.9em;
+	font-style: italic;
+	color: gray;
+}
+h1 { 
+	margin-top: 10px; 
+	font-size: 2.2em;
+} 
+h2 { 
+	color: #1e3a5f; 
+	border-left: 10px solid #1e3a5f; 
+	padding-left: 10px; 
+} 
+h3 { 
+	color: #285B7D; 
+	border-left: 5px solid #285B7D; 
+	padding-left: 10px; 
+} 
+body{
+	font-family: Arial,"sans-serif";
+	color: black;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	line-height:1.6;
+}
+main{
+	width: 85%; 
+	margin: auto; 
+	padding: 20px 0; 
+}
+p { 
+	margin-bottom: 15px; 
+}
+section { 
+	background-color: white; 
+	padding: 20px; 
+	margin-bottom: 25px; 
+	border-radius: 9px; 
+	box-shadow: 0 0 9px rgba(0,0,0,0.1); 
+} 
+article { 
+	margin-bottom: 15px; 
+} 
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 15px 0;
+	display: flex; justify-content: center; gap: 25px;
+}
+nav ul li{
+	list-style : none;
+	display: inline-block; 
+	background-image: url("Images/robotclique.png");
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	padding-left: 30px;
+}
+nav ul li a { 
+	text-decoration: none; 
+	color: white; 
+	background-color: #28499C; 
+	padding: 10px 18px; 
+	border-radius: 6px; 
+	transition: 0.3s; 
+	box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+} 
+nav ul li a:hover { 
+	background-color: #28499C; 
+} 
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+	margin: 15px 0; 
+} 
+table th, table td { 
+	border: 1px solid #ccc; 
+	padding: 10px; 
+	text-align: center; 
+} 
+table th { 
+	background-color: #1e3a5f; 
+	color: white; 
+} 
+table tr:nth-child(even) { 
+	background-color: #f0f4f8; 
+} 
